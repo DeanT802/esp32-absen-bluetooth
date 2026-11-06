@@ -1,0 +1,88 @@
+BUKU_PANDUAN_MANUAL_ADMIN_DAN_ESP32.docx
+
+# ==========================================
+# Laravel & PHP
+# ==========================================
+/vendor/
+.env
+.env.backup
+.env.local
+.env.*.local
+.env.production
+.env.testing
+/storage/*.key
+/storage/pail/
+/storage/debugbar/
+.phpunit.result.cache
+/.phpunit.cache/
+.phpactor.json
+auth.json
+Homestead.json
+Homestead.yaml
+
+# ==========================================
+# Database
+# ==========================================
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# ==========================================
+# Node / Frontend
+# ==========================================
+/node_modules/
+/public/build/
+/public/hot/
+/public/storage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Arduino / ESP32 Build Outputs
+# ==========================================
+*.bin
+*.elf
+*.hex
+*.eep
+*.map
+*.o
+*.d
+*.a
+/esp32_scanner/build/
+/build/
+.pio/
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+*.sublime-project
+*.sublime-workspace
+.gemini/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
